@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Mern stack
+Material ui
+Material data grid
+Nivo
+Redux toolkit
+Redux toolkit Query
+Express
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -11,6 +11,9 @@ import managementRoutes from './routes/management.js';
 import salesRoutes from './routes/sales.js';
 
 
+//data imports
+import User from './models/User.js';
+import { dataUser } from './data/index.js';
 
 
 /* Configuration */
@@ -37,5 +40,9 @@ mongoose.connect(process.env.MONGO_URL, {
     useUnifiedTopology: true,
 }).then(()=> {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`))
+
+    /* Only add data one time , commented out to prevent this from happening */
+    // User.insertMany(dataUser);
+    
 }).catch((error) => console.log(`${error} did not connect`))
 

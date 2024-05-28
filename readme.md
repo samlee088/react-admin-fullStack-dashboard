@@ -19,7 +19,7 @@ This was a project to create a react admin dashboard for business use. The appli
     https://github.com/samlee088/react-admin-fullStack-dashboard
 
     Additionally a deployed link can be found here:
-    https://fullstack-frontend-admin-dashboard.onrender.com/dashboard
+    [https://fullstack-frontend-admin-dashboard.onrender.com/dashboard](https://fullstack-frontend-admin-dashboard.onrender.com)
 
 ## Usage
 
